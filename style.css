@@ -1,0 +1,186 @@
+.container
+{
+	box-sizing: border-box;
+	padding: 114px 69px;
+	background: #5F9EA0;
+	/*opacity: .6;*/
+
+}
+.div1
+{
+	background: #20B2AA;
+	border-radius: 40px;
+	border: 3px solid white;
+}
+.left-side
+{
+	padding: 20px;
+}
+.logo
+{
+	font-size: 40px;
+	color: white;
+}
+.image
+{
+	height: 350px;
+	width: 500px;
+	position: absolute;
+	top: 35%;
+}
+.image {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+/*.image {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}*/
+.right-side-div
+{
+	background: white;
+	height: 100%;
+	border-radius: 30px;
+	padding: 20px 150px;
+	border: 2px solid white;
+}
+
+.language-selector
+{
+	border: none;
+	background: none;
+	position: relative;
+	float: right;
+	left: 37%;
+	outline: none;
+	color: grey;
+}
+.create-heading
+{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.google-icon
+{
+	height: 30px;
+	width: 30px;
+}
+.icon1
+{
+	height: 32px;
+	width: 32px;
+}
+.google, .facebook
+{
+	padding: 4px;
+	align-items: center;
+	width: 45px;
+	height: 35px;
+	position: relative;
+	left: 40%;
+	
+}
+.google:hover
+{
+	width: 100%;
+	position: relative;
+	left: 0;
+	transition: .2s;
+}
+
+.google:hover .anchor-tag
+{
+	visibility: visible;
+	color: orangered;
+}
+.google:hover .anchor-tag1
+{
+	visibility: visible;
+	color: #1E90FF;
+}
+.google:hover .google-icon
+{
+	display: none;
+}
+.anchor-tag
+{
+	visibility: hidden;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	border: 1px solid black;
+	padding: 3px 5px;
+	border-radius: 40px;
+}
+.anchor-tag1
+{
+	visibility: hidden;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	border: 1px solid black;
+	padding: 3px 5px;
+	border-radius: 40px;
+}
+.or
+{
+	text-align: center;
+	font-size: 20px;
+	margin: 20px 0 30px 0;
+}
+.pass-req1,.pass-req2,.pass-req3
+{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	color: #C0C0C0;
+	margin-left: 20px;
+}
+.text-field
+{
+	margin: 10px 0;
+	padding: 5px 15px;
+	border: none;
+	border-bottom: .5px solid grey;
+	border-radius: 40px;
+	outline: red;
+}
+.create-btn
+{
+	padding: 10px;
+	margin: 25px 0;
+	border: none;
+	border-radius: 8px;
+	font-weight: bold;
+	background: #20B2AA;
+	color: white;
+}
+.create-btn:hover
+{
+	background: #008B8B;
+}
+.login-div
+{
+	display: flex;
+}
+.login-massage
+{
+	color: grey;
+	font-size: 17px;
+	margin-right: 10px;
+}
+.login-anchor:hover
+{
+	font-size: 22px;
+	transform: translateY(-10px);
+}
+/*@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}*/
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
